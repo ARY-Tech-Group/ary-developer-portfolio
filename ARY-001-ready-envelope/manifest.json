@@ -1,0 +1,22 @@
+{
+  "id": "ARY-001",
+  "slug": "ready-envelope",
+  "title": "Readiness probe returns `success: true` together with HTTP 503",
+  "category": "Problem",
+  "tier": "trivial",
+  "points": 100,
+  "labels": [
+    "complexity: trivial",
+    "bug",
+    "good first issue"
+  ],
+  "wave": 1,
+  "issueForm": "Wave task \u00b7 Trivial (100 pts)",
+  "touches": [
+    "src/common/errors.ts",
+    "src/modules/health/health.controller.ts",
+    "API_DOCUMENTATION.md"
+  ],
+  "regressionTest": "test/regressions/ready-envelope.test.ts",
+  "dependsOn": []
+}
